@@ -1,0 +1,162 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity$PlaceholderFragment"
+    android:background="#e5e5e5">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#2c2c2c"
+        android:id="@+id/relativeLayout3" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="00007420 Artemio Sampayo Olivares"
+            android:id="@+id/textView10"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#cccccc"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="21/07/2015 12:52 am"
+            android:id="@+id/textView11"
+            android:textColor="#cccccc"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/relativeLayout3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ruta:"
+                android:id="@+id/lblPlaza"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentEnd="false"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="number"
+                android:id="@+id/edtPlaza"
+                android:background="@drawable/btnredonbco"
+                android:layout_below="@+id/lblPlaza"
+                android:layout_marginTop="10dp"
+                android:hint="K131313" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Plaza:"
+                android:id="@+id/lblContenedor"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/edtPlaza" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:id="@+id/edtContenedor"
+                android:background="@drawable/btnredonbco"
+                android:layout_below="@+id/lblContenedor"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword"
+                android:hint="MEX" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ayudante/Tripulación:"
+                android:id="@+id/lblRuta"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/edtContenedor" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:id="@+id/edtRuta"
+                android:background="@drawable/btnredonbco"
+                android:layout_below="@+id/lblRuta"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Contenedor:"
+                android:id="@+id/textView13"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/button" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:id="@+id/editText6"
+                android:background="@drawable/btnredonbco"
+                android:inputType="textPassword"
+                android:layout_below="@+id/textView13"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:hint="C22EM1212" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:id="@+id/btnAceptar"
+                android:textColor="#ffffffff"
+                android:background="@drawable/btnredonnar"
+                android:layout_alignParentBottom="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/editText6" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/button"
+                android:textColor="#ffffffff"
+                android:background="@drawable/btnredongris"
+                android:layout_below="@+id/edtRuta"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Catalogo_Rutas">
+    <item>Seleccione una ruta</item>
+    <item>C22EM1234</item>
+    <item>C22EM1111</item>
+  </string-array>
+    <string-array name="Catalogo_Excep">
+        <item>Excepcion</item>
+        <item>C58:No hubo servicio programado</item>
+        <item>D16:3er.Aviso en garantia</item>
+    </string-array>
+    <string-array name="Catalogo_Ofic">
+        <item>Seleccione una oficina</item>
+        <item>03S-03S</item>
+        <item>099-099</item>
+        <item>106-106</item>
+        <item>107-107</item>
+    </string-array>
+
+</resources>
