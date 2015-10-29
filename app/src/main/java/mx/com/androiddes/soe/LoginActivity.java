@@ -24,6 +24,7 @@ public class LoginActivity extends AppCompatActivity {
                 finish();
             }
         });
+        utils.Mensaje(this, getResources().getString(R.string.m1), null);
     }
 
     @Override

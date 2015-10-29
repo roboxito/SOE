@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    android:background="@drawable/buttonshapebco">
+
+        <ImageView
+            android:id="@+id/imageDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp" />
+
+        <TextView
+            android:id="@+id/textDialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageDialog"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/declineButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=" Aceptar "
+            android:layout_below="@+id/textDialog"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" />
+
+
+</RelativeLayout>

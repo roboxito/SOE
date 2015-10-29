@@ -21,6 +21,7 @@ public class PlazaActivity extends AppCompatActivity {
                 finish();
             }
         });
+        utils.Mensaje(this, getResources().getString(R.string.m8), null);
     }
 
     @Override

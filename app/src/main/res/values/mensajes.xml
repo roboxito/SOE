@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="m1">Pantalla que indicará que se está obteniendo la localización geográfica del dispositivo</string>
+    <string name="m2">Para ingresar a la aplicación es necesario tener la credencia de empleado con código de barras, esto para escanearlo y posteriormente ingresar la contraseña</string>
+    <string name="m3">En caso de no contar con la credencial, será necesario solicitar al supervisor que escanee su credencial para activar el modo manual de ingreso</string>
+    <string name="m4">La aplicación enviará un mensaje que indica que está activada la captura manual</string>
+    <string name="m5">La aplicación nos enviará a la pantalla de ingreso para registrar los datos del operador</string>
+    <string name="m6">Al ingresar a la aplicación se mostrará el tablero de opciones</string>
+    <string name="m7">La aplicación mostrará otro tablero de opciones, También cuenta con la opción para activar el dispositivo como un Asistente de escaneo</string>
+    <string name="m8">Para iniciar con los movimientos locales se debe escanear el Contenedor y elegir la ruta en la cual se va a trabajar</string>
+    <string name="m9">Para indicar que las guías serán entregadas en algún PDV (Punto de Venta) se debe deslizar el botón “Ocurre” hacia la opción “YES” (Si).
+    Posteriormente se debe elegir del catálogo el número de la Oficina Loca</string>
+    <string name="m10">El operador debe situarse en el campo “Guía” y activar el escáner con el botón lateral del dispositivo.</string>
+    La aplicación mostrará el total de guías escaneadas en el renglón “Total Guías” y debajo mostrará el registro de cada una
+    <string name="m11">Para obtener la impresión del manifiesto se debe deslizar el botón “¿Desea imprimir el manifiesto?” hacia la opción “YES” (Si), una vez habilitado en “Seleccione una impresora” se mostrará el catálogo de impresoras disponibles</string>
+    <string name="m12">opción para Escaneo de Garita. La cual hará el registro de desconexión de Red Local se conecta a la red móvil</string>
+    <string name="m13">panel de “Manifiesto”, en donde se verán las opciones de “Entrega”, “OCURRE”, “EXC (Excepciones)” y “CANCEXC (Cancelación de excepciones”) ; así como tres pestañas correspondientes a los movimientos efectuados: “Pendientes”, “Entregas” y “Excepciones”, estas se irán actualizando conforme los movimientos realizados</string>
+    <string name="m14">Para iniciar con las entregas el Operador debe situarse en la opción "Pendientes", luego situarse en el campo definido para Escanear guía a entregar y escanear.
+    La aplicación enviará a la parte superior del listado la(s) guía(s) seleccionada(s) y las resaltará con color azul</string>
+    <string name="m15">Datos de la(s) guía(s) seleccionadas, y el Operador debe llenar los datos solicitados para la confirmación de la entrega que son “Nombre” y “Apellido”
+    Operador selecciona debe tocar la opción “Nueva Firma” para activar la pantalla completa para firma</string>
+    <string name="m16">Una vez que el cliente pone su firma, se toca el botón “Continuar”.
+    Si el cliente desea modificar su firma, se debe tocar el botón “Limpiar firma” para que se borre la anterior</string>
+    <string name="m17">Se verifican los datos ingresados, y se toca el botón “Entregar” para confirmar la entrega</string>
+    <string name="m18">Para excepcionar una entrega el Operador escanea guía, la cual se mostrará al inicio del listado y resaltado en color azul, luego toca el botón “EXC” (Excepciones).
+    total de guías a excepcionar así como número(s) de guía(s)
+    Posteriormente se toca el cuadro “Seleccione la excepción” para que la aplicación muestre el listado de excepciones disponibles.</string>
+    <string name="m19">Una vez seleccionada la excepción el Operador debe confirmar los datos tocando el botón “Continuar”</string>
+    <string name="m20">La aplicación tiene la opción para tomar fotografía a modo de evidencia para la excepción</string>
+    <string name="m21">Aplicación solicitará detalles para la excepción: C33.  Especificar: Inundación, Marcha, Obra de gobierno, Accidente externo, Mercado sobre-ruedas</string>
+    <string name="m22">Aplicación solicitará detalles para la excepción: D02. Calle, número exterior/interior, piso, área o atención, colonia</string>
+    <string name="m23">Aplicación solicitará detalles para la excepción:D04. Nombre de quien da información, Fachada (Referencia)</string>
+    <string name="m24">Aplicación solicitará detalles para la excepción: D12. Referencia domicilio</string>
+    <string name="m25">Aplicación solicitará detalles para la excepción: D14. Referencia domicilio</string>
+    <string name="m26">La aplicación mostrará el tablero de “Reabastecimiento”, donde el Operador debe posicionarse en el cuadro para escanear guías a reabastecer.
+    La aplicación irá mostrando el listado de guías escaneadas</string>
+    <string name="m27">La aplicación mostrará el manifiesto de Recolecciones, con las opciones “Normal” y “Oficina”.
+    El manifiesto está integrado por tres pestañas: “Pendientes”, “Excepciones” y “Recolectadas”</string>
+    <string name="m28">El listado de Recolecciones puede ordenarse de forma manual, esto se hace tocando el símbolo con tres puntos ubicado en la parte derecha de cada registro y arrastrando la tarjeta.
+    Una vez ordenado el Operador debe seleccionar la recolección a realizar</string>
+    <string name="m29">La aplicación mostrará los detalles de la recolección, como son
+    Cantidad, Dirección, Teléfono, Cliente/Razón Social.
+    El operador debe tocar el botón “GUÍAS”</string>
+    <string name="m30">La aplicación mostrará el tablero para escanear las guías a recolectar, e irá mostrando el total de guías, al terminar de escanear, se debe finalizar con el botón “CONFIRMACIÓN”</string>
+    <string name="m31">Cliente agrega firma de conformidad</string>
+    <string name="m32">Nombre de la personas que hará la entrega del paquete, este se muestra en “Preguntar por”, si se trata de la misma persona se debe tocar el botón “MISMO”, si es otra persona, se debe anotar el nombre en el campo “Entregado por”</string>
+    <string name="m33">Detalles de la recolección, como son
+    Cantidad, Dirección, Teléfono, Cliente/Razón Social.
+    El operador debe tocar el botón “Sin servicio"</string>
+    <string name="m34"> El Operador debe seleccionar la excepción correspondiente</string>
+    <string name="m35"> detalles para la excepción: R02:Calle, número exterior/interior, piso, área o atención, colonia (Puede tomar foto)</string>
+    <string name="m36">Detalles para la excepción: R10:Excede dimensiones, excede peso, mal empaquedato, entrega prohibida, negada por: ,(Puede tomar foto)</string>
+    <string name="m37">Detalles para la excepción: R11:Negada por , (Puede tomar foto)</string>
+    <string name="m38">Detalles para la excepción: R12:Fachada referencia, (Puede tomar foto)</string>
+    <string name="m39">Detalles para la excepción: R15:Fachada referencia, Negada por,(Puede tomar foto)</string>
+    <string name="m40">Detalles para la excepción: R18:Agregar más detalles, Negada por, (Puede tomar foto), sin guía, sin orden de recolección, guía caduca</string>
+    <string name="m41">Detalles para la excepción:Tomar foto</string>
+    <string name="m42">Mostrará el resumen de movimientos, el cual se debe cotejar con Control de Envíos</string>
+    <string name="m43">Aplicación solicitará la clave de supervisor para poder finalizar</string>
+    <string name="m44">Opción para la captura de observaciones</string>
+
+</resources>

@@ -24,6 +24,7 @@ public class UserActivity extends AppCompatActivity {
                 finish();
             }
         });
+        utils.Mensaje(this, getResources().getString(R.string.m2), null);
     }
 
     @Override

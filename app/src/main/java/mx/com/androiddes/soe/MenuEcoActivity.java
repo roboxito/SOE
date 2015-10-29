@@ -31,6 +31,7 @@ public class MenuEcoActivity extends AppCompatActivity {
                 startActivity(contloc);
             }
         });
+        utils.Mensaje(this, getResources().getString(R.string.m7), null);
     }
 
     @Override
